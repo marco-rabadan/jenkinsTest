@@ -8,7 +8,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Ejecutando Build...'
-                dir ("Curso-Microservicios/"){
+                dir ("."){
                    sh "mvn clean package "
                 }
             }
