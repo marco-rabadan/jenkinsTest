@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo 'Ejecutando Build...'
                 dir ("Curso-Microservicios/"){
-                   sh "mvn clean package"
+                   sh "mvn clean package "
                 }
             }
         }
